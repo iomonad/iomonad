@@ -1,0 +1,27 @@
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  push:
+    branches:
+      - master
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Profile Readme Stats
+      uses: teoxoy/profile-readme-stats@v1.1
+      with:
+        token: ${{ secrets.USER_TOKEN }}
+    - name: Update README.md
+      run: |
+        if [[ "$(git status --porcelain)" != "" ]]; then
+        git config user.name iomonad[ci]
+        git config user.email iomonad@riseup.net
+        git add README.md
+        git commit -m "[CI] Update README"
+        git push
+        fi
