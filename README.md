@@ -1,6 +1,11 @@
-Joined Github **5** years ago.
-
-Since then I pushed **6703** commits, opened **13** issues, submitted **51** pull requests, received **111** stars across **43** personal projects and contributed to **3** public repositories.
+```
+▪        • ▌ ▄ ·.        ▐ ▄  ▄▄▄· ·▄▄▄▄  
+██ ▪     ·██ ▐███▪▪     •█▌▐█▐█ ▀█ ██▪ ██ 
+▐█· ▄█▀▄ ▐█ ▌▐▌▐█· ▄█▀▄ ▐█▐▐▌▄█▀▀█ ▐█· ▐█▌
+▐█▌▐█▌.▐▌██ ██▌▐█▌▐█▌.▐▌██▐█▌▐█ ▪▐▌██. ██ 
+▀▀▀ ▀█▄▀▪▀▀  █▪▀▀▀ ▀█▄▀▪▀▀ █▪ ▀  ▀ ▀▀▀▀▀•
+```
+I pushed **6705** commits, opened **13** issues, submitted **51** pull requests, received **111** stars across **43** personal projects and contributed to **3** public repositories.
 
 Most used languages across my projects:
 
