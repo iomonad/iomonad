@@ -1,7 +1,7 @@
 
 on:
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '37 13 */3 * *'
   push:
     branches:
       - master
@@ -22,6 +22,6 @@ jobs:
         git config user.name iomonad[ci]
         git config user.email iomonad@riseup.net
         git add README.md
-        git commit -m "[CI] Update README"
+        git commit -m "[CI] Update README -- trigger $(date +%D)"
         git push
         fi
