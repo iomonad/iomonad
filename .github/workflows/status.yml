@@ -1,4 +1,3 @@
-
 on:
   schedule:
     - cron: '37 13 */3 * *'
@@ -19,8 +18,8 @@ jobs:
     - name: Update README.md
       run: |
         if [[ "$(git status --porcelain)" != "" ]]; then
-        git config user.name iomonad[ci]
-        git config user.email iomonad@riseup.net
+        git config user.name github-actions[bot]
+        git config user.email 41898282+github-actions[bot]@users.noreply.github.com
         git add README.md
         git commit -m "[CI] Update README -- trigger $(date +%D)"
         git push
