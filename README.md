@@ -10,7 +10,8 @@
          :servers [:libera :rizon :oftc]}
    :email "aW9tb25hZEByaXNldXAubmV0Cg=="
    :fingerprint
-   "280B 8CD8 A990 4737 2CD4  551B 0781 ECEA 9ED0 9403"})
+   ["280B 8CD8 A990 4737 2CD4"
+    "551B 0781 ECEA 9ED0 9403"]})
 ```
 #### projects
 
