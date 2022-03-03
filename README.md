@@ -4,9 +4,14 @@
 
 #### on internet
 
-- IRC: `iomonad@{libera,rizon,oftc}:6697`
-
-
+```clojure
+(def contact
+  {:irc {:nick "iomonad"
+         :servers [:libera :rizon :oftc]}
+   :email "aW9tb25hZEByaXNldXAubmV0Cg=="
+   :fingerprint
+   "280B 8CD8 A990 4737 2CD4  551B 0781 ECEA 9ED0 9403"})
+```
 #### projects
 
 - [dotfiles](https://github.com/iomonad/dotfiles) - unix related dotfiles
