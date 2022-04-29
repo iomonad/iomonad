@@ -16,7 +16,8 @@
 #### projects
 
 - [dotfiles](https://github.com/iomonad/dotfiles) - unix related dotfiles
-- [kfs](https://github.com/iomonad/KFS) - basic x86 kernel built from scratch 
+- [kfs](https://github.com/iomonad/KFS) - basic x86 kernel built from scratch
+- [kfs-aarch64](https://github.com/iomonad/kfs-aarch64) A simple ARMv8 Kernel built from scratch that run on BCM2711 l ARM Cortex-A72 
 - [eudyptula](https://github.com/iomonad/eudyptula) - eudyptula challenge walkthrough
 - [abloy-3d-print](https://github.com/iomonad/abloy-3d-print) - library for generating 3D printable abloy keys
 - [qgis-tools](https://github.com/iomonad/qgis-tools) - tools for interacting with Qgis3
