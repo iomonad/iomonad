@@ -13,6 +13,7 @@
    ["280B 8CD8 A990 4737 2CD4"
     "551B 0781 ECEA 9ED0 9403"]})
 ```
+[:key: PGP 🔑](https://raw.githubusercontent.com/iomonad/iomonad/master/mail.asc)
 #### projects
 
 - [dotfiles](https://github.com/iomonad/dotfiles) - unix related dotfiles
