@@ -1,6 +1,6 @@
 name: Github Readme Template
 on:
-  schedule: [{cron: "*/20 * * * *"}]
+  schedule: [{cron: "*/45 * * * *"}]
   push: {branches: ["master", "main"]}
   workflow_dispatch:
 jobs:
